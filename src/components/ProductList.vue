@@ -54,12 +54,12 @@
   }
   
   .product-item {
-    display: grid; /* Используем grid */
-    grid-template-columns: 2fr 1fr 1fr; /* Распределение колонок */
+    display: grid; 
+    grid-template-columns: 2fr 1fr 1fr;
     align-items: center;
     padding: 15px;
     border-bottom: 1px solid #eee;
-    gap: 10px; /* Расстояние между колонками */
+    gap: 10px;
   }
   
   .product-item:last-child {
@@ -76,7 +76,7 @@
     font-size: 17px;
     color: #555;
     font-weight: 400;
-    text-align: center; /* Цена по центру */
+    text-align: center;
   }
   
   .add-to-cart-button {
@@ -90,7 +90,7 @@
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.3px;
-    justify-self: end; /* Кнопка в конец строки */
+    justify-self: end;
   }
   
   .add-to-cart-button:hover {
@@ -99,7 +99,7 @@
   }
   
   .add-to-cart-button i {
-    margin-right: 8px; /* Добавляем отступ между иконкой и текстом */
+    margin-right: 8px;
   }
   </style>
   

@@ -71,8 +71,8 @@
   }
   
   .cart-header {
-    display: grid; /* Используем grid */
-    grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr; /* Распределение колонок */
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
     padding: 15px;
     font-weight: 600;
     border-bottom: 2px solid #eee;
@@ -81,7 +81,7 @@
   }
   
   .header-item {
-    text-align: center; /* Текст заголовков по центру */
+    text-align: center;
   }
   
   .cart-items {
@@ -90,8 +90,8 @@
   }
   
   .cart-item {
-    display: grid; /* Используем grid */
-    grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr; /* Распределение колонок */
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
     align-items: center;
     padding: 15px;
     border-bottom: 1px solid #eee;
